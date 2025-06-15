@@ -130,4 +130,4 @@ async def query_knowledge_base(request: QueryRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="127.0.0.1", port=10000, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=9000, reload=True)
